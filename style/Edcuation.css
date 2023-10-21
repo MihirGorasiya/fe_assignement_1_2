@@ -1,0 +1,116 @@
+body {
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+
+#edu_div {
+    margin-top: 25px;
+}
+
+header {
+    background-image: url("../media/images/watercolor.png");
+    background-position: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.course_heading {
+    display: inline;
+    margin: 50px 0px;
+}
+
+.collage_name {
+    display: inline;
+    margin: 0px 0px 0px 100px;
+}
+
+.duration {
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+.gpa {
+    display: inline;
+    margin: 0px 0px 0px 420px;
+}
+
+
+
+
+
+
+
+
+#article_link {
+    color: aliceblue;
+}
+
+footer {
+    margin-top: 25px;
+    height: 150px;
+    padding: 25px 0px 0px 25px;
+}
+
+#footer-logo {
+    float: left;
+    display: inline;
+    height: 100%;
+    color: aliceblue;
+    padding-right: 50%;
+}
+
+#footer-links {
+    display: inline;
+    padding-right: 50%;
+}
+
+#footer-links h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 426px) {
+
+    .course_heading {
+        display: block;
+        margin: 0;
+    }
+
+    .collage_name {
+        display: block;
+        margin: 0;
+    }
+
+    .duration {
+        display: inline;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .gpa {
+        display: block;
+        margin-left: 0 !important;
+    }
+    #article_link{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .course_heading {
+        margin: auto;
+        
+    }
+    .collage_name{
+        margin: 0px 0px 0px 120px;
+    }
+
+
+    .gpa {
+        margin: 0px 0px 0px 320px;
+    }
+
+}
